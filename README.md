@@ -8,11 +8,13 @@ In particular, a library that drops lots of useful functions into global scope m
 Usage
 =====
 importScripts
+-------------
 Use this method if you want to address the library as it were a file local to a webworker. Execution path is relative to where node.js is executed from
 importScripts=require('importScripts').importScripts;
 importScripts('library.js')
 
 include
+-------
 Use this method if you want to address the library from an arbitrary location
 include=require('importScripts').include;
 
