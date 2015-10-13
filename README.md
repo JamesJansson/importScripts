@@ -20,6 +20,10 @@ include=require('importScripts').include;
 
 FAQ
 ===
-You're just polluting the global space!!!
+You're just polluting the global scope!!!
 
 That's not a question, but thanks for asking. Sometimes there are great javascript libraries that we just want to use, without having to convert it to node.js exports format. Remember that the global scope belongs to the person who is using it. If they want to load it into global scope, they should be able to. More importantly, they should be able to drop libraries into a module's scope. 
+
+License
+=======
+Public domain. 
